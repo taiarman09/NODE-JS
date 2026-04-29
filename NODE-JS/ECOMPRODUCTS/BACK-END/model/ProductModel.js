@@ -23,4 +23,4 @@ const ProductSchema = new mongoose.Schema({
     }
 }, {timestamps: true})
 
-export const newProductSchema = mongoose.model("list", ProductSchema)
+export const newProductSchema = mongoose.model("Product", ProductSchema)
